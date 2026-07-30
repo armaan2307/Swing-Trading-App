@@ -2,4 +2,3 @@ streamlit
 pandas
 numpy<2
 yfinance
-sqlite3
