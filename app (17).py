@@ -193,7 +193,7 @@ if not df_trades.empty:
                     st.markdown("#### **Execution Parameters**")
                     st.markdown(f"• **Recommended Position Size:** `{quantity:,} shares`")
                     st.markdown(f"• **Total Capital Deployed:** `₹{total_investment:,.2f}` ({round((total_investment/total_capital)*100, 1)}% of portfolio)")
-                    st.markdown(f"• **Max Dollar Risk:** `₹{max_allowed_loss:,.2f}` (Strict Limit)")
+                    st.markdown(f"• **Max Risk:** `₹{max_allowed_loss:,.2f}` (Strict Limit)")
                     st.markdown(f"• **Risk-to-Reward Ratio:** `1 : {rr_ratio:.2f}`")
 
         st.markdown("<br>", unsafe_allow_html=True)
